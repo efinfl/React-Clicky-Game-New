@@ -24,7 +24,7 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
   
   "homepage": "https://efinfl.github.io/React-Clicky-Game-New/"
 }

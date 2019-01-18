@@ -4,7 +4,7 @@ import React from "react";
 import Logo from "../../assets/images/pointer.png"
 
 // This is the Nav gets called into app.js
-const Nav = () =>
+const Nav = (props) =>
  <div id="nav">
   <div className='nav-text logo'>
     <div className="logoDiv">ClickyGame<img id="logo" alt="logo" src={Logo}/></div>
@@ -13,7 +13,7 @@ const Nav = () =>
       CLICK ANY IMAGE
   </div>
   <div className='nav-text'>
-    SCORE: 0 | TOP SCORE: 0 
+    SCORE: {props.score} | TOP SCORE: 0 
   </div>
   
 </div>
